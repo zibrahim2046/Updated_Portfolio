@@ -73,7 +73,7 @@
           <ul>
             <li title="Home">
               <a href="#home"
-                ><img src="img/icons/UI/user.png" alt="Home"/><img
+                ><img src="img/icons/UI/user.png" alt="Home" /><img
                   class="active-image"
                   src="img/icons/UI/user_dark.png"
                   alt="Home"
@@ -81,7 +81,7 @@
             </li>
             <li title="Resume">
               <a href="#resume"
-                ><img src="img/icons/UI/document_fill.png" alt="Resume"/><img
+                ><img src="img/icons/UI/document_fill.png" alt="Resume" /><img
                   class="active-image"
                   src="img/icons/UI/document_fill_dark.png"
                   alt="Resume"
@@ -89,7 +89,7 @@
             </li>
             <li title="Portfolio">
               <a href="#portfolio"
-                ><img src="img/icons/UI/folder_fill.png" alt="Portfolio"/><img
+                ><img src="img/icons/UI/folder_fill.png" alt="Portfolio" /><img
                   class="active-image"
                   src="img/icons/UI/folder_fill_dark.png"
                   alt="Portfolio"
@@ -97,7 +97,7 @@
             </li>
             <li title="Contact">
               <a href="#contact"
-                ><img src="img/icons/UI/mail_alt.png" alt="Contact"/><img
+                ><img src="img/icons/UI/mail_alt.png" alt="Contact" /><img
                   class="active-image"
                   src="img/icons/UI/mail_alt_dark.png"
                   alt="Mail"
@@ -180,13 +180,12 @@
                       </p> -->
                     </aside>
                   </li>
-                  <li data-graph-percent="30">
+                  <li data-graph-percent="50">
                     <span class="bar-title">Node.js</span>
                     <aside>
                       <p>
-                        I just recently started utilizing Node. I have a very
-                        basic understanding of how it works with little
-                        practical applications so far.
+                        I've built apps utilizing Node.JS to run various
+                        commands and functions in the terminal.
                       </p>
                       <!-- <p class="secondary">
                         Sed ut <a href="#">perspiciatis</a> unde omnis iste
@@ -201,7 +200,9 @@
                     <span class="bar-title">Javascript</span>
                     <aside>
                       <p>
-                       The majority of the development I've been doing has utilized vanilla Javascript as well as Jquery, AJAX, and Firebase.
+                        The majority of the development I've been doing has
+                        utilized vanilla Javascript as well as Jquery, AJAX, and
+                        Firebase.
                       </p>
                       <!-- <p class="secondary">
                         Sed ut <a href="#">perspiciatis</a> unde omnis iste
@@ -212,11 +213,11 @@
                       </p> -->
                     </aside>
                   </li>
-                  <li data-graph-percent="100">
-                    <span class="bar-title">MS Office</span>
+                  <li data-graph-percent="70">
+                    <span class="bar-title">React</span>
                     <aside>
                       <p>
-                     Full proficiancy in Word, Excel, and Powerpoint.
+                        Utilizing React to build comprehensive fullstack applications
                       </p>
                       <!-- <p class="secondary">
                         Sed ut <a href="#">perspiciatis</a> unde omnis iste
@@ -270,8 +271,8 @@
     				Use images of size 660x360px. Everything inside <aside> tags will be displayed in the
     					info box on top of the image. -->
             <ul id="portfolio-images" class="semi-light-text">
-              <li class="first">
-                <li>
+              <li class="first"></li>
+              <li>
                 <img
                   src="img/Project Screenshots/Psychic-Game.png"
                   alt="Psychic-Game"
@@ -329,9 +330,14 @@
               <li>
                 <img src="img/image5.jpg" alt="" />
                 <aside class="dark-semi-transparent">
-                  <h1></h1>
+                  <h1>FACIA Budgeting App</h1>
                   <p>
-                    Coming Soon!
+                    This is a project I worked on in a group setting. The app is
+                    an all inclusive budgeting tool that has a built in tip
+                    calculator and currency converter. There is also a page to
+                    load current news articles. I worked on most of the back
+                    end: API Routes, calculator functions, as well as MYSQL
+                    database management.
                   </p>
                   <!-- <p>
                     Notice how the image fades out starting from where you
@@ -341,7 +347,11 @@
                     You can also use the navigation buttons at the bottom left
                     to jump to any image in the slideshow.
                   </p> -->
-                  <a href="#" class="portfolio-link">Visit Site</a>
+                  <a
+                    href="https://pr0ject-2.herokuapp.com/"
+                    class="portfolio-link"
+                    >Click Here To Check it Out!</a
+                  >
                 </aside>
               </li>
               <li>
@@ -482,12 +492,12 @@
       window._gaq = [
         ["_setAccount", "UAXXXXXXXX1"],
         ["_trackPageview"],
-        ["_trackPageLoadTime"]
+        ["_trackPageLoadTime"],
       ];
       Modernizr.load({
         load:
           ("https:" == location.protocol ? "//ssl" : "//www") +
-          ".google-analytics.com/ga.js"
+          ".google-analytics.com/ga.js",
       });
     </script>
 
@@ -496,7 +506,7 @@
     <!--[if lt IE 7]>
       <script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
       <script>
-        window.attachEvent("onload", function() {
+        window.attachEvent("onload", function () {
           CFInstall.check({ mode: "overlay" });
         });
       </script>
